@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHOPCARDD</title>
+  <style>
+    html{
+  scroll-behavior: smooth;
+}
+#navbar {
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  background-color: #333;
+  transition: top 0.3s;
+}
+
+
+ *{ box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; line-height: 1.5; }
+    header {
+      position: sticky; top: 0; background: #0078D7;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 15px 30px; color: #fff; z-index: 10;
+    }
+    header nav a {
+      color: #fff; margin-left: 20px; text-decoration: none;
+    }
+    .store{
+      height: 700px;
+      background: white;
+      display: inline-block;
+      width: 100;
+    }
+    #about us{
+      height: 700px;
+      background: white;
+      display: inline-block;
+      width: 100;
+    }
+    #contact us{
+      height: 700px;
+      background: white;
+      display: inline-block;
+      width: 100;
+    }
+    
+* { box-sizing: border-box; margin:0; padding:0; }
+.carousel {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.slides {
+  display: flex;
+  width: calc(3 * 100vw); 
+  animation: slide 9s infinite;
+}
+.slides img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100vw); }
+  66%  { transform: translateX(-200vw); }
+  100% { transform: translateX(0); }
+}
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #266bd8;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      height: 100vh;
+      padding: 60px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #intro { background: #f0f0f0; }
+    #mission { background: #dfe9f3; }
+    #team { background: #c9d6df; }
+    #contact { background: #b3c0c8; }
+
+    h1, h2 {
+      margin: 0 0 20px;
+    }
+    p {
+      max-width: 600px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header>
+    <img src="logo.png" width="150">
+
+
+  <nav>
+    <a href="#home">home</a>
+    <a href="#store">store categories</a>
+    <a href="#about">about us</a>
+    <a href="#contact">Contact us</a>
+  </nav>
+</header>
+
+<div class="carousel">
+  <div class="slides">
+    <img src="web page images/Screenshot 2025-06-28 224606.png" alt="slide1">
+    <img src="web page images/Screenshot 2025-06-28 224627.png" alt="slide2">
+    <img src="web page images/Screenshot 2025-06-28 224654.png" alt="slide3">
+  </div>
+</div>
+<br>
+<br>
+
+  <section id="store">
+    <p> <b>SHOPCARDD STORE CATEGORIES </b> </p>
+    <style>
+      p{
+        color: #266bd8;
+      }
+    </style>
+    <h1>From essentials to extravagance, we cover it all</h1>
+    <br>
+    <div class="image-grid">
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-1-1.jpg" alt="image1" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-2.jpg" alt="image2" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-3.jpg" alt="image3" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-4.jpg" alt="image4" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-5.jpg" alt="image5" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-6.jpg" alt="image6" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-7.jpg" alt="image7" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-8.jpg" alt="image8" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-9.jpg" alt="image9" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-10.jpg" alt="image10" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-11.jpg" alt="image11" />
+  <img src="https://www.shopcardd.com/assets/images/Shopcardd-12.jpg" alt="image12" />
+  </div>
+ </section>
+
+   <style>
+    .image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+      .image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;                             
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 400px) {
+  .image-grid {
+    grid-template-columns: 1fr;          
+  }
+}
+</style>
+ <br>
+ <br>
+    <marquee><h1>Get More Information</h1></marquee>
+<br>
+ <section id="about">
+  <img src="./aseets/Screenshot 2025-06-29 143128.png" height="" width="">
+  </section>
+
+
+  <section id="contact">
+  <img src="./aseets/Screenshot 2025-06-29 144031.png" height="1500" width="1500">
+  </section>
+  <script>
+    // it Show sections with animation
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+    //  it takes to Back to Top Button
+    const backToTop = document.getElementById("backToTop");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    });
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+   
+</body>
+</html>
