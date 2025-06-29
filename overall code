@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width,initial‑scale=1.0" />
+  <title>ShopCardd Hero Section</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<header>
+  <img src="./assets/logo.png" width="150">
+<nav>
+    <a href="#home">Home</a>
+    <a href="#store">Store Categories</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+</header>
+
+<div class="carousel">
+  <div class="slides">
+    <img src="web page images/Screenshot 2025-06-28 224606.png" alt="Slide 1">
+    <img src="web page images/Screenshot 2025-06-28 224627.png" alt="Slide 2">
+    <img src="web page images/Screenshot 2025-06-28 224654.png" alt="Slide 3">
+  </div>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SHOPCARDD</title>
@@ -119,28 +148,6 @@
 
 <body>
   
-  <header>
-    <img src="logo.png" width="150">
-
-
-  <nav>
-    <a href="#home">home</a>
-    <a href="#store">store categories</a>
-    <a href="#about">about us</a>
-    <a href="#contact">Contact us</a>
-  </nav>
-</header>
-
-<div class="carousel">
-  <div class="slides">
-    <img src="web page images/Screenshot 2025-06-28 224606.png" alt="slide1">
-    <img src="web page images/Screenshot 2025-06-28 224627.png" alt="slide2">
-    <img src="web page images/Screenshot 2025-06-28 224654.png" alt="slide3">
-  </div>
-</div>
-<br>
-<br>
-
   <section id="store">
     <p> <b>SHOPCARDD STORE CATEGORIES </b> </p>
     <style>
@@ -210,12 +217,13 @@
     <marquee><h1>Get More Information</h1></marquee>
 <br>
  <section id="about">
-  <img src="./aseets/Screenshot 2025-06-29 143128.png" height="" width="">
+<img src="./assets/Screenshot 2025-06-29 143128.png">
   </section>
 
 
   <section id="contact">
-  <img src="./aseets/Screenshot 2025-06-29 144031.png" height="1500" width="1500">
+ <h1>contact us</h1>
+  <img src="./assets/Screenshot 2025-06-29 144031.png" width="1500">
   </section>
   <script>
     // it Show sections with animation
@@ -247,3 +255,5 @@
    
 </body>
 </html>
+
+
